@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(239, 231, 220);
+}
+#overall{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4rem;
+    font-weight: 700;
+}
+#container{
+    font-family: monospace;
+    border: 2px solid rgb(205, 182, 139);
+    border-radius: 30px;
+    background-color: rgba(255, 235, 205, 0.518);
+} 
+#stopwatch{
+    font-size: 4rem;
+    margin: 20px;
+}
+button{
+    font-size: 2rem;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+#startbutton{
+    background-color: rgb(23, 139, 31);
+}
+#stopbutton{
+    background-color: rgb(179, 63, 63);
+}
+#resetbutton{
+    background-color: rgb(53, 53, 173)
+}
+#startbutton:hover{
+    background-color: rgb(11, 106, 17);
+}
+#stopbutton:hover{
+    background-color: rgb(138, 42, 42);
+}
+#resetbutton:hover{
+    background-color: rgb(23, 23, 117);
+}
