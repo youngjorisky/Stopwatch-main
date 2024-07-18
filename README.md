@@ -1,2 +1,2 @@
-# Timeclock-main
-Using javascript to create a time clock for time count
+# Stopwatch-main
+Using javascript to create a stopwatch for time count
